@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #08090d; color: #f5f5f7; font-family: Arial, Helvetica, sans-serif; }
+.dot-grid { background-image: radial-gradient(rgba(255,255,255,.13) 1px, transparent 1px); background-size: 22px 22px; mask-image: linear-gradient(to bottom, black, transparent 76%); }
+.noise { background-image: radial-gradient(circle at 20% 10%,rgba(115,91,255,.16),transparent 22%), radial-gradient(circle at 79% 14%,rgba(64,210,195,.1),transparent 19%); }
+.glass { background: rgba(23,25,32,.72); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,.09); }
+.gradient-text { background: linear-gradient(100deg,#fff 27%,#c8c3ff 53%,#78e6d7 90%); -webkit-background-clip:text; background-clip:text; color:transparent; }
+::selection { background: #8278ff; color: #fff; }
